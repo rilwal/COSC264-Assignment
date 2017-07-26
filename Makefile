@@ -71,3 +71,5 @@ run: bin/sender bin/reciever
 	bin/reciever
 	kill $(pidof sender)
 
+all: bin/sender bin/channel bin/reciever
+	echo Done!

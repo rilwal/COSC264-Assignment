@@ -1,6 +1,5 @@
 #pragma once
 
-
 struct PacketHeader {
     int magic_number;
     int type;
