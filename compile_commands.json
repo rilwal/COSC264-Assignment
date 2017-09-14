@@ -25,30 +25,13 @@
             "-Wall", 
             "-Werror", 
             "-Icommon/include", 
-            "-Ireciever/include", 
+            "-Isender/include", 
             "-o", 
-            "bin/reciever", 
-            "reciever/src/main.cpp"
+            "bin/sender", 
+            "sender/src/main.cpp"
         ], 
         "directory": "/home/cosc/student/jli229/cosc264-assignment", 
-        "file": "reciever/src/main.cpp"
-    }, 
-    {
-        "arguments": [
-            "c++", 
-            "-c", 
-            "-g", 
-            "-std=c++14", 
-            "-Wall", 
-            "-Werror", 
-            "-Icommon/include", 
-            "-Ireciever/include", 
-            "-o", 
-            "bin/reciever", 
-            "common/src/packet.cpp"
-        ], 
-        "directory": "/home/cosc/student/jli229/cosc264-assignment", 
-        "file": "common/src/packet.cpp"
+        "file": "sender/src/main.cpp"
     }, 
     {
         "arguments": [
@@ -62,10 +45,27 @@
             "-Isender/include", 
             "-o", 
             "bin/sender", 
-            "sender/src/main.cpp"
+            "common/src/utility.cpp"
         ], 
         "directory": "/home/cosc/student/jli229/cosc264-assignment", 
-        "file": "sender/src/main.cpp"
+        "file": "common/src/utility.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-g", 
+            "-std=c++14", 
+            "-Wall", 
+            "-Werror", 
+            "-Icommon/include", 
+            "-Ichannel/include", 
+            "-o", 
+            "bin/channel", 
+            "common/src/utility.cpp"
+        ], 
+        "directory": "/home/cosc/student/jli229/cosc264-assignment", 
+        "file": "common/src/utility.cpp"
     }, 
     {
         "arguments": [
